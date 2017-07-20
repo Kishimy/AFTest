@@ -1,0 +1,25 @@
+.row-nav {
+	display: flex;
+}
+
+.row-nav__link {
+	font-size: 12px;
+	line-height: 14px;
+	text-decoration: underline;
+	margin: 0 5px;
+	position: relative;
+	color: @link-color;
+
+	&:after {
+		content: "|";
+		color: @text-color;
+		position: absolute;
+		right: -6px;
+	}
+
+	&:last-child {
+		&:after {
+			content: none;
+		}
+	}
+}

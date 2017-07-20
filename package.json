@@ -1,0 +1,30 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "autoprefixer": "^6.3.1",
+    "webpack": "^3.2.0",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.17.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "postcss-loader": "^2.0.6",
+    "precss": "^2.0.0",
+    "raw-loader": "^0.5.1",
+    "resolve-url-loader": "^2.1.0",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9"
+  }
+}
